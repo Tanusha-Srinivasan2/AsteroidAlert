@@ -1,0 +1,90 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  width: 99%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0rem;
+  /* Reduced horizontal padding from 2rem to 1rem */
+  z-index: 100;
+  flex-wrap: wrap; /* Allow items to wrap to the next line on smaller screens */
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  flex-shrink: 0; /* Prevent logo from shrinking */
+  margin-right: 0.5rem; /* Reduced margin to bring it closer to nav-links */
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem; /* This controls space between individual links */
+  padding: 0;
+  margin: 0;
+  flex-grow: 0;
+  flex-shrink: 1;
+  min-width: 0;
+}
+
+.nav-links li {
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  white-space: nowrap; /* Prevent text from wrapping within a link */
+}
+
+.nav-links li:hover {
+  color: #a0a0a0;
+}
+
+.rightSection {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0; /* Prevent the right section (containing button) from shrinking */
+  margin-left: 0.5rem; /* Reduced margin to bring it closer to nav-links */
+}
+
+/* Media query to adjust padding and layout for very small screens if still overflowing */
+@media (max-width: 768px) {
+  /* Apply adjustments for tablet/mobile screens */
+  .navbar {
+    padding: 1rem 0.5rem; /* Further reduce horizontal padding on smaller screens */
+  }
+  .nav-links {
+    gap: 0.6rem; /* Further reduce gap */
+    flex-basis: calc(100% - 1rem); /* Take full width minus padding */
+    justify-content: space-around; /* Distribute links evenly */
+    margin-top: 0.5rem; /* Add a small top margin if they wrap */
+  }
+  .logo,
+  .rightSection {
+    margin-right: 0.25rem; /* Even smaller margins for tighter fit */
+    margin-left: 0.25rem;
+  }
+}
+
+/* Even more aggressive for very small mobile screens */
+@media (max-width: 480px) {
+  .navbar {
+    padding: 0.5rem 0.25rem; /* Even smaller padding */
+  }
+  .logo {
+    font-size: 1.2rem; /* Slightly smaller logo */
+  }
+  .nav-links li {
+    font-size: 0.9rem; /* Slightly smaller link text */
+  }
+  .rightSection button {
+    /* Target the button directly for smaller font */
+    font-size: 0.5rem;
+    padding: 0.5rem 0.7rem;
+  }
+}

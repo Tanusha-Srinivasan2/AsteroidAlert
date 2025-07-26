@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0; /* Ensure no default body margin */
+  padding: 0;
+  overflow: hidden; /* Prevent scrollbars from video */
+}
+
+.content-overlay {
+  position: relative;
+  z-index: 1;
+  color: white;
+  padding: 2rem;
+  font-family: "Poppins", sans-serif;
+  min-height: 50vh; /* Ensure overlay covers full viewport */
+  overflow-y: auto; /* Allow scrolling within content if needed */
+}
+.video-background-container {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  overflow: hidden; /* Hide video overflow */
+}
+
+.video-background {
+  width: 100%; /* Make video fill container */
+  height: 100%;
+  object-fit: cover; /* Cover the entire container */
+  object-position: center center;
+  transform: scale(1); /* Reset scale to 1, object-fit handles it */
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.main-content-area {
+  padding: 0.75rem;
+  margin-top: 4rem; /* Adjust as needed to clear fixed navbar */
+  min-height: calc(
+    100vh - 8rem
+  ); /* Keep this, it ensures a minimum height but allows growth */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  /* REMOVED: justify-content: center; */ /* Allow content to flow from top */
+}

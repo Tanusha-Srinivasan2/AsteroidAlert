@@ -1,0 +1,36 @@
+/* src/components/googleSignInButton.module.css */
+
+.googleButtonContainer {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.loginButton,
+.logoutButton {
+  padding: 0.75rem 1rem;
+  border-radius: 0.375rem;
+  font-weight: 600;
+  transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: none;
+  cursor: pointer;
+}
+
+.loginButton {
+  background-color: #f63bab;
+  color: white;
+}
+
+.loginButton:hover {
+  background-color: #d02170;
+}
+
+.logoutButton {
+  background-color: #dc26b8;
+  color: white;
+}
+
+.logoutButton:hover {
+  background-color: #c72576;
+}

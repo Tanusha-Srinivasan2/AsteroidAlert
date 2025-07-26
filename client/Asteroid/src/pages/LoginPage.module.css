@@ -1,0 +1,42 @@
+/* src/pages/LoginPage.module.css */
+
+.loginPageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(100vh - 8rem);
+  padding: 1rem;
+  color: white;
+}
+
+.loginCard {
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  max-width: 28rem;
+  width: 100%;
+  border: 1px solid rgba(107, 114, 128, 0.7);
+}
+
+.loginTitle {
+  font-size: 2.25rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  color: white;
+}
+
+.loginSubtitle {
+  font-size: 1.125rem;
+  margin-bottom: 2rem;
+  color: rgba(229, 231, 235, 0.8);
+}
+
+.loginInfo {
+  font-size: 0.875rem;
+  color: rgba(156, 163, 175, 0.8);
+  margin-top: 1rem;
+}
