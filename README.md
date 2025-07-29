@@ -131,14 +131,3 @@ AsteroidAlert-main/
 3.  The React frontend stores this token and includes it in the `Authorization: Bearer` header for all subsequent API calls to the backend.
 4.  The Spring Boot **Notification Service** is configured as an OAuth 2.0 Resource Server. It validates the incoming JWT against Google's public keys to authenticate the user and secure its endpoints.
 
-## Recent Changes
-
-Based on the project's commit history, the development process included:
-
--   Initial backend commit and setup of the Asteroid alerting service.
--   Completion of the Notification Service, including email and user management logic.
--   Implementation of Google authentication, user synchronization, and notification history features.
--   Started the basic React frontend.
--   Integrated the frontend with the backend and refined the UI layout.
--   Resolved CORS and JWT authentication errors to finalize the integration.
--   Fixed all outstanding CORS issues.
