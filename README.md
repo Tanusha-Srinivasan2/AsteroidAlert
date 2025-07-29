@@ -5,28 +5,33 @@ AsteroidAlert is a modern, full-stack application designed to provide real-time 
 ## User Interface Screenshots
 
 <div align="center">
-  <img src="https://i.imgur.com/your-login-image.png" width="400" alt="Login Screen" />
+  <img src="https://github.com/Tanusha-Srinivasan2/Images/blob/main/Screenshot%202025-07-29%20224256.png?raw=true" width="800" alt="Login Screen" />
 </div>
 <p align="center"><em>Secure sign-in using Google Authentication.</em></p>
 
 <div align="center">
-  <img src="https://i.imgur.com/your-dashboard-image.png" width="400" alt="Dashboard" />
+  <img src="https://github.com/Tanusha-Srinivasan2/Images/blob/main/Screenshot%202025-07-29%20224332.png?raw=true" width="800" alt="Dashboard" />
 </div>
 <p align="center"><em>A personalized dashboard welcoming the user.</em></p>
 
 <div align="center">
-  <img src="https://i.imgur.com/your-history-image.png" width="600" alt="History Page" />
+  <img src="https://github.com/Tanusha-Srinivasan2/Images/blob/main/Screenshot%202025-07-29%20224358.png?raw=true" width="800" alt="History Page" />
 </div>
-<p align="center"><em>A detailed history of all past asteroid alert notifications.</em></p>
+<p align="center"><em>A history of all past asteroid alert notifications.</em></p>
 
 <div align="center">
-  <img src="https://i.imgur.com/your-details-image.png" width="400" alt="Notification Details" />
-  <img src="https://i.imgur.com/your-settings-image.png" width="400" alt="Settings Page" />
+  <img src="https://github.com/Tanusha-Srinivasan2/Images/blob/main/Screenshot%202025-07-29%20224416.png?raw=true" width="800" alt="Details Page" />
+</div>
+<p align="center"><em>Further details about the asteroid selected.</em></p>
+
+<div align="center">
+  
+  <img src="https://github.com/Tanusha-Srinivasan2/Images/blob/main/Screenshot%202025-07-29%20224441.png?raw=true" width="800" alt="Settings Page" />
 </div>
 <p align="center"><em>Users can view detailed information about each alert and manage their notification settings.</em></p>
 
 <div align="center">
-  <img src="https://i.imgur.com/your-architecture-image.png" width="800" alt="System Architecture" />
+  <img src="https://github.com/Tanusha-Srinivasan2/Images/blob/main/Asteroidsysdiag.png?raw=true" width="800" alt="System Architecture" />
 </div>
 <p align="center"><em>System Architecture Diagram</em></p>
 
