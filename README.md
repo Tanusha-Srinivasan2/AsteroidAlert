@@ -1,6 +1,6 @@
 # AsteroidAlert
 
-AsteroidAlert is a modern, full-stack application designed to provide real-time alerts about potentially hazardous asteroids. It features a scalable Spring Boot microservices backend and a dynamic React.js frontend. The system fetches data directly from NASA's NeoWs (Near Earth Object Web Service) API, processes it to identify threats, and notifies users via email. The entire application is containerized using Docker for easy setup and deployment.
+AsteroidAlert is a modern, full-stack application designed to provide real-time alerts about potentially hazardous asteroids. It features a scalable Spring Boot microservices backend and a dynamic React.js frontend. The system fetches data directly from NASA's NeoWs (Near Earth Object Web Service) API, processes it to identify threats, and notifies users via email. 
 
 ## User Interface Screenshots
 
